@@ -1,0 +1,23 @@
+ 
+
+.hello {
+    color: red;
+    font-family: 'FontAwesome'; 
+    background: url(/wwwroot/dist/images\blue.jpg)
+}
+
+#slider .rs-range-color {
+    background-color: #5673E7;
+}
+
+#slider .rs-path-color {
+    background-color: #dedede;
+}
+
+#slider .rs-handle {
+    background-color: #000000;
+}
+
+#slider .rs-border {
+    border-color: white;
+}

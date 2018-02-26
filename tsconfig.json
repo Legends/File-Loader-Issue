@@ -1,0 +1,23 @@
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "rootDir": "src",
+    //"rootDir": ".",
+    "sourceMap": true, // To be able to debug TS files during runtime we need source maps.
+    //"allowJs": true,
+    //"outDir": "src/scripts/nodemodules",
+    "noEmitOnError": true,
+    //"listFiles": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
+  },
+  //"include": [
+  //  "./src/**/*"
+  //]
+}

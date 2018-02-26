@@ -1,0 +1,25 @@
+/* https://palantir.github.io/tslint/usage/rule-flags/
+YOU CAN USE INLINE RULES WHICH YOU CAN PUT IN THE TOP OF A FILE OR BEFORE CERTAIN FILE SECTION */
+/* tslint:disable:no-console no-debugger max-line-length no-trailing-whitespace arrow-parens */
+
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": { /* enable/disable rules: */
+    "whitespace": false,
+    "no-var-requires": false,
+    "no-console": false,
+    "no-debugger": false,
+    "max-line-length": false,
+    "no-trailing-whitespace": false,
+    "no-consecutive-blank-lines": false,
+    "eofline": false,
+    "typedef-whitespace": false,
+    "comment-format": false,
+    "arrow-parens": false
+  },
+  "rulesDirectory": []
+}
