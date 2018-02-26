@@ -31,12 +31,7 @@ module.exports = {
     },
 
     plugins: [
-        // new webpack.optimize.CommonsChunkPlugin({
-        //     name: 'commonChunks',
-        //     children: true, // dynamic imports will not only load the requested module but also it's dependencies,
-        //     filename: 'common.js' // which are probably already contained in the main.bundle.js
-        // }),
-        new webpack.ProvidePlugin({
+           new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery",
             "window.jQuery": "jquery"          
